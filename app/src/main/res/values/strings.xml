@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMC_APP</string>
+    <string name="screem1_Title">IMC</string>
+    <string name="screem1_weight">Informe seu peso. Ex: 80</string>
+    <string name="screem1_height">Informe sua altura. Ex: 1.78</string>
+    <string name="screem1_button">Calcular</string>
+    <string name="screem2_text1">O seu IMC é:</string>
+
+
+</resources>
