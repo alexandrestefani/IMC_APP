@@ -1,7 +1,9 @@
 package com.alexandrestefani.imc_app
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import java.math.RoundingMode
@@ -29,6 +31,12 @@ class MainActivity2 : AppCompatActivity() {
         df.roundingMode = RoundingMode.DOWN
         val roundoff = df.format(imc)
         show_imc.text = roundoff.toString()
+
+        val button = findViewById<ImageButton>(R.id.imageButtontela2)
+        button.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
 
         val imagem = findViewById<ImageView>(R.id.imagemtela2)
         val classif = findViewById<TextView>(R.id.classific)

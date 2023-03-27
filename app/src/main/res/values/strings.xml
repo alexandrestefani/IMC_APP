@@ -5,6 +5,20 @@
     <string name="screem1_height">Informe sua altura. Ex: 1.78</string>
     <string name="screem1_button">Calcular</string>
     <string name="screem2_text1">O seu IMC é:</string>
+    <string name="screem1_explicação_titulo">O que é o IMC?</string>
+    <string name="screem1_explicação_corpo">Indice de massa corporal,\n é uma medida de saúde para\n controlar a proporção\n do peso x altura.</string>
+    <string name="atencao">Atencao!!!\nDados gerados são ilustrativos\nObjetivo é testar funcionalidades.\n</string>
+    <string name="muitomagrotitulo">Muito Magro</string>
+    <string name="muitomagrodescricao">IMC abaixo de 18.5</string>
+    <string name="normaltitulo">Normal desejavel</string>
+    <string name="normaldescricao">IMC de 18.5 a 24.9</string>
+    <string name="sobrepesotitulo">Sobrepeso</string>
+    <string name="sobrepesodescricao">IMC de 24.9 a 30</string>
+    <string name="obesidadetitulo">Obesidade</string>
+    <string name="obesidadedescricao">IMC maior que 30</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
